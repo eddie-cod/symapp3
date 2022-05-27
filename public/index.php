@@ -27,7 +27,7 @@ switch($url) {
 }
 
 
-$response->setContent('<html><body><h1>Hello World! '.$name.' -> '.$nom.'</h1></body></html>');
+// $response->setContent('<html><body><h1>Hello World! '.$name.' -> '.$nom.'</h1></body></html>');
 $response->send();
 
 
